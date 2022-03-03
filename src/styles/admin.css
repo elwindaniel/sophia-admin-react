@@ -1,0 +1,97 @@
+.admin{
+    background-color: #E7F1F4;
+    min-height: 87vh;
+    padding: 60px 175px 20px 175px;
+}
+
+.admin-main{
+   
+    align-items: center;
+    max-width: 500px;
+    justify-content: space-between;
+}
+
+.school-Search{
+    font-weight: bold;
+    font-size: xx-large;
+    color: #2E2E2E;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 200px;
+    padding-top: 30px;   
+    
+}
+
+
+
+.search-box{
+    border: 1px solid #6C6C6C;
+    box-sizing: border-box;
+    border-radius: 10px;
+    height: 50px;
+    outline: none;
+    padding:5px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    cursor: pointer;
+    border: none;
+    max-width: 500px;
+    width: 100%;
+}
+
+.search-input{
+    border: 1px solid #6C6C6C;
+    box-sizing: border-box;
+    height: 48px;
+    border: none; 
+    outline: none;
+    font-size: 16px;
+    color: #2E2E2E;
+    padding: 8px;
+    width: 100%;
+}
+
+.search-input:focus{
+    border: none;
+}
+
+.search{
+    width: 100%;
+    justify-content: flex-end;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    
+}
+.admin-card{
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 5px;
+    
+}
+
+.action-box{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    
+}
+
+.round-btn{
+    width:50px;
+     border-radius:100%;
+     position:fixed;
+     bottom:40px;
+     right:40px;
+}
+
+@media  (max-width:1200px)
+{
+    .admin{
+        padding: 60px 20px 20px 20px;
+    }
+}

@@ -1,0 +1,83 @@
+.auth {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.auth-box {
+  min-width: 300px;
+  text-align: center;
+}
+
+.auth-title {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 35px;
+  color: #6c6c6c;
+}
+
+input {
+  border: 1px solid #6c6c6c;
+  box-sizing: border-box;
+  border-radius: 10px;
+  height: 50px;
+  width: 100%;
+  outline: none;
+  padding: 5px;
+}
+input:focus {
+  border: 1px solid #0a98d3;
+}
+.input {
+  border: 1px solid #6c6c6c;
+  box-sizing: border-box;
+  border-radius: 10px;
+  height: 50px;
+  width: 100%;
+  outline: none;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.input::focus {
+  border: 1px solid #0a98d3;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.eye:hover {
+  color: #0a98d3;
+}
+
+button {
+  height: 50px;
+  background: #0a98d3;
+  border-radius: 10px;
+  width: 100%;
+  border: none;
+  margin-top: 10px;
+  color: #ffffff;
+  font-weight: bold;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #056b97;
+}
+
+.forgot {
+  margin-top: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #6c6c6c;
+}

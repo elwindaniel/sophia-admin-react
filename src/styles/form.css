@@ -1,0 +1,10 @@
+form{
+    padding: 20px;
+}
+
+.form-title{
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    color: #2E2E2E; 
+}

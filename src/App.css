@@ -1,0 +1,15 @@
+@import "./styles/header.css";
+@import "./styles/footer.css";
+@import "./styles/auth.css";
+@import "./styles/schoolheader.css";
+@import "./styles/admin.css";
+@import "./styles/text.css";
+@import "./styles/form.css";
+
+
+.App {
+  text-align: center;
+}
+
+
+
